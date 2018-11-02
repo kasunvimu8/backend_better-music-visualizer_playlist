@@ -1,7 +1,8 @@
 let express = require('express')
 let request = require('request')
 let querystring = require('querystring')
-
+let SPOTIFY_CLIENT_SECRET='08c9c571b1bd4a9a9db84807bae0e865';
+let SPOTIFY_CLIENT_ID='9a779d8bf3b14e31b2416a5fb76434df';
 let app = express()
 
 let redirect_uri = 
